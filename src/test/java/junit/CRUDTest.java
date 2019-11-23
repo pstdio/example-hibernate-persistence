@@ -5,10 +5,6 @@
  */
 package junit;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -17,7 +13,7 @@ import org.junit.jupiter.api.Test;
  */
 public class CRUDTest {
     
-    public CRUDTest() {
+    public CRUDTest() throws Exception {
     }
 
     @org.junit.jupiter.api.BeforeAll
@@ -43,8 +39,8 @@ public class CRUDTest {
     // public void hello() {}
     
     @Test
-    public void save() throws Exception{
-        throw new Exception("test");
+    public void save() {
+        
     }
     
 }
