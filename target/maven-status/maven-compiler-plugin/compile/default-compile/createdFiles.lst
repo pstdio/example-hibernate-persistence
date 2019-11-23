@@ -1,0 +1,4 @@
+eu/purplestudio/example/hibernate/persistance/core/Main.class
+eu/purplestudio/example/hibernate/persistance/integration/repo/RepoImpl.class
+eu/purplestudio/example/hibernate/persistance/integration/entity/ExampleEntity.class
+eu/purplestudio/example/hibernate/persistance/integration/repo/RepoApi.class
