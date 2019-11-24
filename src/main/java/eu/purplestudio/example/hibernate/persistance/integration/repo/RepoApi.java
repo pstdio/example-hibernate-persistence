@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface RepoApi {
     Object findById(Long id);
-    List<Object> getAll(); 
+    List getAll(); 
     void save(Object object);
     void remove(Object object);
 }

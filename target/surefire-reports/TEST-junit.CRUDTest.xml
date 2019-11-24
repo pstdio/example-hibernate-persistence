@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="junit.CRUDTest" time="0.061" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="junit.CRUDTest" time="2.382" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="java.specification.version" value="12"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="PL"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire/surefirebooter433454479103061883.jar /Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire 2019-11-24T00-30-49_876-jvmRun1 surefire14600374075218758492tmp surefire_014570868259841739096tmp"/>
+    <property name="sun.java.command" value="/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire/surefirebooter11751708380195451557.jar /Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire 2019-11-24T15-39-14_817-jvmRun1 surefire8479686041709376419tmp surefire_01316822063780245565tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/test-classes:/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/classes:/Users/mikolaj/.m2/repository/org/hibernate/hibernate-core/5.4.8.Final/hibernate-core-5.4.8.Final.jar:/Users/mikolaj/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/Users/mikolaj/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/Users/mikolaj/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/Users/mikolaj/.m2/repository/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar:/Users/mikolaj/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/mikolaj/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/Users/mikolaj/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/Users/mikolaj/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/Users/mikolaj/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/mikolaj/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/Users/mikolaj/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/Users/mikolaj/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/Users/mikolaj/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/Users/mikolaj/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/Users/mikolaj/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/Users/mikolaj/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/Users/mikolaj/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/Users/mikolaj/.m2/repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar:/Users/mikolaj/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/Users/mikolaj/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0-M1/junit-jupiter-engine-5.6.0-M1.jar:/Users/mikolaj/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/mikolaj/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0-M1/junit-platform-engine-1.6.0-M1.jar:/Users/mikolaj/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mikolaj/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0-M1/junit-platform-commons-1.6.0-M1.jar:/Users/mikolaj/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0-M1/junit-jupiter-api-5.6.0-M1.jar:/Users/mikolaj/.m2/repository/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar:"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire/surefirebooter433454479103061883.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mikolaj/NetBeansProjects/example-hibernate-persistance/target/surefire/surefirebooter11751708380195451557.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="12.0.2+10"/>
@@ -56,5 +56,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="save" classname="junit.CRUDTest" time="0.024"/>
+  <testcase name="getAll" classname="junit.CRUDTest" time="0.147"/>
+  <testcase name="remove" classname="junit.CRUDTest" time="0.024"/>
+  <testcase name="update" classname="junit.CRUDTest" time="0.012"/>
 </testsuite>
