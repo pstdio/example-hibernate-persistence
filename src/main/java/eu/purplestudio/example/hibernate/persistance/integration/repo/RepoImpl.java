@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package eu.purplestudio.example.hibernate.persistance.integration.repo;
 
 import java.util.List;
@@ -13,7 +8,7 @@ import javax.persistence.Table;
  *
  * @author mikolaj
  */
-public class RepoImpl<T> implements RepoApi {
+public class RepoImpl implements RepoApi {
 
     private final EntityManager em;
     private final Class clazz;
